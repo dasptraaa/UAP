@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+    <title> Kasir </title>
+    <style>
+        table {
+         border-collapse: collapse;
+         width: 50%;
+         margin-bottom: 20px;
+        }
+        tr, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+          }
+        </style>
+    <body>
+    <table id="Tabel">
+        <tr>
+          <th>Kode</th>
+          <th>Barang</th>
+          <th>Harga</th>
+        </tr>
+      </table>
+    
+     <div class="form-container">
+        <label for="kodeBarang">Kode Barang:</label>
+        <input type="text" id="kodeBarang">
+        <br>
+        <label for="banyakBarang">Banyak Barang:</label>
+        <input type="number" id="banyakBarang">
+        <br>
+        <button onclick="Beli()">Beli</button>
+    </div>
+        
+        <script src="script.js"></script>
+    </body>
+
+</html>
